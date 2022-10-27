@@ -62,12 +62,32 @@ function AddTeam() {
                 <InputCentered onChange={(e)=> onValueChange(e)} name = "category"/>
             </FormControl>
             <FormControl>
-                <InputLabelCentered>Escudo </InputLabelCentered>
-                <InputCentered onChange={(e)=> onValueChange(e)} name= "shield"/>
+                <InputLabelCentered>Primer Color </InputLabelCentered>
+                <InputCentered onChange={(e)=> onValueChange(e)} name= "firstColor"/>
             </FormControl>
             <FormControl>
-                <InputLabelCentered>Colores Uniforme </InputLabelCentered>
-                <InputCentered onChange={(e)=> onValueChange(e)} name= "uniformColors"/>
+                <InputLabelCentered>Segundo Color </InputLabelCentered>
+                <InputCentered onChange={(e)=> onValueChange(e)} name= "secondColor"/>
+            </FormControl>
+            <FormControl>
+                <InputLabelCentered>Sede </InputLabelCentered>
+                <InputCentered onChange={(e)=> onValueChange(e)} name= "campus"/>
+            </FormControl>
+            <FormControl>
+                <InputLabelCentered>Nombre del Director Técnico </InputLabelCentered>
+                <InputCentered onChange={(e)=> onValueChange(e)} name= "technicalDirector"/>
+            </FormControl>
+            <FormControl>
+                <InputLabelCentered>Nombre del Presidente </InputLabelCentered>
+                <InputCentered onChange={(e)=> onValueChange(e)} name= "president"/>
+            </FormControl>
+            <FormControl>
+                <InputLabelCentered>Número de Trabajadores </InputLabelCentered>
+                <InputCentered onChange={(e)=> onValueChange(e)} name= "workerNumber" type='Number'/>
+            </FormControl>
+            <FormControl>
+                <InputLabelCentered>Número de Jugadores </InputLabelCentered>
+                <InputCentered onChange={(e)=> onValueChange(e)} name= "playerNumber" type='Number'/>
             </FormControl>
             <FormControl>
                 <ButtonS variant= "contained" onClick={(e)=> addTeamInformation()}> Añadir Equipo </ButtonS>
