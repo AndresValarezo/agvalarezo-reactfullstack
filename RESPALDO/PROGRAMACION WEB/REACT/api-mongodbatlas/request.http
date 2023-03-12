@@ -1,0 +1,32 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Andres1",
+    "age"  : "21",
+    "email" : "agvalarezo1@espe.edu.ec"
+
+}
+
+###
+
+GET http://localhost:9000/api/users HTTP/1.1
+
+###
+
+GET http://localhost:9000/api/users/62b729d2bf52b6fdb28eab73 HTTP/1.1
+###
+
+PUT http://localhost:9000/api/users/62b72f3aeeef1c72008ebda6 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Andres2",
+    "age"  : "20",
+    "email" : "a1gvalarezo1@espe.edu.ec"
+}
+
+###
+DELETE http://localhost:9000/api/users/62b778d4498a88bbb269f7ea HTTP/1.1
+

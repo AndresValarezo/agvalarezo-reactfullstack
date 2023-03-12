@@ -1,0 +1,43 @@
+###
+POST http://localhost:3004/farmaveci/medicineIncomplete HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": 2,
+    "name": "Buprex 500 mg",
+    "description": "Medicamento para el dolor de cabeza",
+    "category": "prueba",
+    "quantity": 12,
+    "price": "5.50",
+    "elabDate": "24-07-2022",
+    "expDate": "25-12-2022"
+}
+
+###
+
+GET http://localhost:3004/farmaveci/all HTTP/1.1
+
+###
+
+GET http://localhost:3004/farmaveci/category/Antiinflamatorios HTTP/1.1
+###
+
+PUT http://localhost:3004/farmaveci/quantity/13 HTTP/1.1
+
+###
+
+PUT http://localhost:3004/farmaveci/name/ANdres HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": 1,
+    "quantity": "2",
+    "description": "descripcion",
+    "price": "String",
+    "elabDate": "String",
+    "expDate": "String"
+}
+
+###
+DELETE http://localhost:3004/farmaveci/category/prueba HTTP/1.1
+

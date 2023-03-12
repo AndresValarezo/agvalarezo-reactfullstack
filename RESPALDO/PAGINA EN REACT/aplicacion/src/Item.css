@@ -1,0 +1,40 @@
+.item{
+    
+    display: inline-block;
+    padding: 10px;
+    margin: 15px;
+    width: 200px;
+    vertical-align: top;
+}
+.item .image img{
+    height: 330px;
+
+}
+pre{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bold;
+}
+.item .title{
+    font-weight: bold;
+    font-size: 18px;
+    height: 60px;
+    text-align: center;
+}
+
+.item .actions{
+    width: 100%;
+    border-top: solid 1px #bbb;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.item .actions button{
+    border: 15;
+    border-radius: 3px;
+    background-color:rgb(54, 40, 131);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    width: 100%;
+}
