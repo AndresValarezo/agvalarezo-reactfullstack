@@ -1,1 +1,0 @@
-npm run dev //iniciar el programa
