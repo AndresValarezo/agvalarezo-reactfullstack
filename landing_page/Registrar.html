@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title></title> 
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+	<link rel="stylesheet" href="estilos_form.css">
+	
+
+</head>  
+<body>
+ <form action="registrar.html" method="POST" class="formulario">
+    
+    <h1>Registrate</h1>
+     <div class="contenedor">
+     
+     <div class="input-contenedor">
+         <i class="fas fa-user icon"></i>
+         <input type="text" placeholder="Nombre Completo" name="name" required>
+         
+         </div>
+         
+         <div class="input-contenedor">
+         <i class="fas fa-envelope icon"></i>
+         <input type="text" placeholder="Correo Electronico" name="correo" required>
+         
+         </div>
+         
+         <div class="input-contenedor">
+        <i class="fas fa-key icon"></i>
+         <input type="text" placeholder="Direccion" name="direccion" required>
+         
+         </div>
+         <h1> Informacion Personal</h1>
+             <p> Seleccione su genero</p>
+         <div class="selection-radio">
+             
+             <input type="radio" name="sexo" id="hombre" required>
+				<label for="hombre">Hombre</label>
+		
+				<input type="radio" name="sexo" id="mujer" required>
+				<label for="mujer">Mujer</label>
+                <input type="radio" name="sexo" id="otro" required>
+				<label for="otro">otro</label>
+                
+			</div>
+            <div class="fecha"> 
+                <label for="date"> Fecha de nacimiento <input type="date" required></label>
+            </div>
+
+            <div class="checkbox">
+                <input type="submit" value="Registrate" class="button">
+                <input type="checkbox" name="checkbox" id="checkbox" required>
+                <label for="checkbox"> Acepto los Términos y Condiciones y autorizo el uso de mis datos de acuerdo a la Declaración de Privacidad </label>
+            </div>
+             <p>¿Ya tienes una cuenta?<a class="link" href="Login.html">Iniciar Sesion</a></p>
+         </div>
+
+        
+    </form>
+</body>
+</html>

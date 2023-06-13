@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(imagen.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 35px;
+}
+.formulario{
+    background: #fff;
+    margin-top: 100px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 35px;
+}
+h2{
+    text-align: center;
+    color: #1a2537;
+    font-size: 20px;
+
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:  #159db2;
+    padding: 15px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+.button:hover{
+    background: cadetblue;
+}
+p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.link{
+    text-decoration: none;
+      color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+
+.formulario .selection-radio label,
+.formulario .checkbox label{
+    color: rgb(22, 25, 29);
+    cursor: pointer;
+    text-align: center;
+    border-top-width: 5px;
+    margin: 5 30px;
+   
+}
+.formulario input[type="date"],
+.formulario input[type="radio"]
+{
+    margin-bottom: 30px;
+}
+.formulario input[type="checkbox"]
+{
+    margin: auto;
+    width: 20px;
+	height: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
